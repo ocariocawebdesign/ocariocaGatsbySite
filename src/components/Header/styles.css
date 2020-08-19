@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;800&display=swap");
+:root {
+  --title-color: #440055;
+  --primary-color: #34cb79;
+  --title-color-2: #2c3b88;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: 0;
+}
+
+header {
+  display: grid !important;
+  grid-template-columns: 100% !important;
+  grid-row: auto;
+  background: #fff;
+  padding: 2rem;
+}
+#header-top{
+  margin-top: 1rem;
+}
+
+.wave {
+  display: flex;
+  width: 100%;
+}
+
+.h1-header {
+  font-size: 36px !important;
+  color: #333;
+  text-shadow: 0 0 15px rgba(117, 115, 115, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5);
+  margin-bottom: 2rem;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+#logo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-02{
+
+  padding: 0.8rem;
+}
+
+.p-sobre {
+  font-size: 16x;
+  font-weight: normal;
+  line-height: 20px;
+  letter-spacing: 2px;
+  margin-top: 2rem;
+  color: #333;
+}
+.bg-light {
+  background-color: transparent !important;
+}
+
+.btn-primary-mod-02 {
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  background: #693377 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 1.4rem;
+  color: #fff;
+  -webkit-box-shadow: 7px 3px 30px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 3px 30px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 3px 30px -4px rgba(0, 0, 0, 0.75);
+}
+
+.btn-primary-mod-02:hover {
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  background: rgb(90, 89, 89) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 1.4rem;
+  color: #fafafa !important;
+  -webkit-box-shadow: 7px 3px 30px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 3px 30px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 7px 3px 30px -4px rgba(0, 0, 0, 0.75);
+}
+
+.centralizar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding:0.2rem;
+}
