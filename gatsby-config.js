@@ -3,8 +3,8 @@
 module.exports = {
 
   siteMetadata: {
-    title: `Totem Requite`,
-    description: `Site Totens Requinte`,
+    title: `O Carioca Web`,
+    description: `Site de contato de Carlos Abreu - Desenvolvimento de sites O Carioca Web`,
     author: `@ocariocawebdesign`,
   },
   /* Your site config here */

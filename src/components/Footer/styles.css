@@ -4,9 +4,9 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color:rgb(243, 235, 235);
+    background-color:#FAFAFA;
     color: #333;
-    padding: 2rem;
+    padding:1.6rem;
   }
 
   .p-text-footer {

@@ -1,13 +1,5 @@
-
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;800&display=swap");
-
-
 
 html,
 body,
@@ -134,3 +126,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+
+
