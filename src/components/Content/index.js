@@ -3,7 +3,6 @@ import Efeito from "./efeito";
 import Forcasa from "../Content/img/forCasa.png";
 import Tanto from "../Content/img/tanto.png";
 import PostoSeis from "../Content/img/posto-seis.png";
-//import Image from "../Content/img/imagem.png";
 import Espirales from "../Content/img/espirales.png";
 import PrimoCappo from "../Content/img/primoCappo.png";
 import "./styles.css";

@@ -42,7 +42,7 @@ class Blog extends React.Component {
 
           const element = (
             <>
-              <h3>Blog</h3>
+              <h3>Micro Blog</h3>
               <div className="post-box">
                 <div>
                   <h1> {parse(dadosPost.title)} </h1>

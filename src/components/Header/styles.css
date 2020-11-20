@@ -45,23 +45,32 @@ header {
   justify-content: center;
   align-items: center;
 }
+.img-ilustracao {
+  max-width: 80%;
+}
 
 .box-02 {
   padding: 0.8rem;
 }
 
-.img-perfil{
+.img-perfil {
   opacity: 0.8;
   max-width: 100%;
+  margin-top: 1.2rem;
 }
 
 .p-sobre {
   font-size: 16x;
-  font-weight: normal;
+  font-weight: lighter;
   line-height: 20px;
-
-  margin-top: 2rem;
-  color: #333;
+  margin-top: 1.4rem;
+  color: #000;
+  font-family: "Nunito", sans-serif;
+  border: 1px solid rgb(231, 232, 233);
+  padding: 1rem;
+  background: #fafafa;
+  border-radius: 3px;
+  box-shadow: 1px 1px 6px 1px #e6e3e3;
 }
 .bg-light {
   background-color: transparent !important;
@@ -145,17 +154,17 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fafafa !important;
+  color: #333;
   border: none !important;
   border-radius: 3px;
   font-size: 2.6rem !important;
   letter-spacing: -1.5px;
   line-height: 1.1667;
-  background-color: #231f20 !important;
+  background-color:#FAFAFA !important;
   padding: 0.8rem;
   margin-bottom: 1rem;
   font-family: "Nunito", sans-serif;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 #result01 {
