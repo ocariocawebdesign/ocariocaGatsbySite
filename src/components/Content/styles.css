@@ -200,3 +200,13 @@ h3.text-promocao {
     box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
 }
+
+.centralizar-coffe{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.coffe-button{
+  background:#2d2d2d!important;
+}

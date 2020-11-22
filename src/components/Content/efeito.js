@@ -20,7 +20,7 @@ class Efeito extends React.Component {
     imgAtiva.adiciona("efeito-pulse");
   }
   render() {
-    return <div></div>;
+    return <></>;
   }
 }
 export default Efeito;

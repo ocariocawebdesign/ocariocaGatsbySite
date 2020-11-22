@@ -4,6 +4,8 @@ import Forcasa from "../Content/img/forCasa.png";
 import Tanto from "../Content/img/tanto.png";
 import PostoSeis from "../Content/img/posto-seis.png";
 import Espirales from "../Content/img/espirales.png";
+import CoffeCup from "../Content/img/coffe.png";
+
 import PrimoCappo from "../Content/img/primoCappo.png";
 import "./styles.css";
 
@@ -90,6 +92,19 @@ const Content = () => (
 
         <div id="box02">Olá</div>
       </div>
+    </div>
+    <div className="centralizar-coffe">
+      <a
+        href="https://api.whatsapp.com/send?phone=5521971025148&text=Ol%C3%A1!%20Quero%20informa%C3%A7%C3%B5es%20sobre%20Desenvolvimento%20de%20sites..."
+        target="_blank"
+        rel="noreferrer"
+        cacak7
+      >
+        <button className="btn btn-primary-mod-02 text-button-size animate__animated animate__swing animate__repeat-6 coffe-button ">
+          Vamos tomar um café?
+        </button>
+      </a>
+      <img src={CoffeCup} className="img-fluid" />
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path

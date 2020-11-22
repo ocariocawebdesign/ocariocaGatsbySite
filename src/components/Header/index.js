@@ -5,7 +5,7 @@ import Ilustracao from "../Header/img/ocarioca-ilustracao-1.png";
 import Ocarioca from "../Header/img/ocarioca-rounded.png";
 import GitHub from "../Header/img/GitHub_Logo.png";
 import LinkedIn from "../Header/img/linkedin.png";
-import Blog from "../Blog/index";
+//import Blog from "../Blog/index";
 import "../css/animate.min.css";
 const Header = () => (
   <>
@@ -74,7 +74,6 @@ const Header = () => (
                       className="animate__animated animate__fadeIn animate__repeat-6"
                     >
                       {" "}
-                      <Blog />
                     </div>
                   </div>
                 </div>
