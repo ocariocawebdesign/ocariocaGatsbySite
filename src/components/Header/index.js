@@ -7,12 +7,14 @@ import GitHub from "../Header/img/GitHub_Logo.png";
 import LinkedIn from "../Header/img/linkedin.png";
 //import Blog from "../Blog/index";
 import "../css/animate.min.css";
+//import AnimateClass from "./script";
 const Header = () => (
   <>
+   
     <header id="header-top">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 section-1-logo">
             <div id="logo">
               <img className="img-fluid" src={Logo} alt="" />
             </div>
@@ -55,16 +57,23 @@ const Header = () => (
                 rel="noreferrer"
                 cacak7
               >
-                <button className="btn btn-primary-mod-02 text-button-size animate__animated animate__swing animate__repeat-6 ">
+                <button className="btn btn-primary-mod-02 text-button-size swing" >
                   Me mande uma mensagem!
                 </button>
               </a>
             </div>
             <br />
           </div>
+
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 box-02">
             <h1 className="text-left h1-header">Desenvolvimento de websites</h1>
-            <img className="img-fluid img-ilustracao" src={Ilustracao} alt="" />
+            <div className="ilustracao-margin">
+              <img
+                className="img-fluid img-ilustracao"
+                src={Ilustracao}
+                alt=""
+              />
+            </div>
             <section id="wp-posts">
               <div className="container">
                 <div className="row">

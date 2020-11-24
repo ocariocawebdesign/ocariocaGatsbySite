@@ -76,11 +76,13 @@ const Content = () => (
           id="content-box-02"
           className="col-xs-12 col-sm-12 col-md-4 col-lg-4"
         >
-          <img
-            className="img-thumbnail img-fluid works"
-            src={PostoSeis}
-            alt=""
-          />
+          <a href="http://postoseis.com.br/" rel="noreferrer" target="_blank">
+            <img
+              className="img-thumbnail img-fluid works"
+              src={PostoSeis}
+              alt=""
+            />
+          </a>
         </div>
         <div
           id="content-box-03"
@@ -100,7 +102,7 @@ const Content = () => (
         rel="noreferrer"
         cacak7
       >
-        <button className="btn btn-primary-mod-02 text-button-size animate__animated animate__swing animate__repeat-6 coffe-button ">
+        <button className="btn btn-primary-mod-02 text-button-size coffe-button swing ">
           Vamos tomar um café?
         </button>
       </a>

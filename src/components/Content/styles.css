@@ -201,6 +201,10 @@ h3.text-promocao {
   }
 }
 
+.ilustracao-margin{
+  margin-bottom: 3.7rem;
+}
+
 .centralizar-coffe{
   display:flex;
   justify-content: center;
