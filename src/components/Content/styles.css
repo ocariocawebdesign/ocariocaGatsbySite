@@ -201,16 +201,12 @@ h3.text-promocao {
   }
 }
 
-.ilustracao-margin{
-  margin-bottom: 3.7rem;
-}
-
-.centralizar-coffe{
-  display:flex;
+.centralizar-coffe {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.coffe-button{
-  background:#2d2d2d!important;
+.coffe-button {
+  background: #2d2d2d !important;
 }

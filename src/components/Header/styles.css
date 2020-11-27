@@ -34,6 +34,7 @@ header {
   color: #333;
   text-shadow: 0 0 2px rgba(170, 168, 168, 0.5),
     0 0 10px rgba(255, 255, 255, 0.5);
+  margin-top: 4rem;
   margin-bottom: 2rem;
   font-family: "Nunito", sans-serif;
   font-weight: 400;
@@ -47,6 +48,10 @@ header {
 }
 .img-ilustracao {
   max-width: 80%;
+}
+
+.ilustracao-margin {
+  margin-top: 1rem;
 }
 
 .box-02 {
