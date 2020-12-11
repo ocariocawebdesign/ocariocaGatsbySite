@@ -63,7 +63,7 @@ const Header = () => (
                 href="https://api.whatsapp.com/send?phone=5521971025148&text=Ol%C3%A1!%20Quero%20informa%C3%A7%C3%B5es%20sobre%20Desenvolvimento%20de%20sites..."
                 target="_blank"
                 rel="noreferrer"
-                cacak7
+                
               >
                 <button className="btn btn-primary-mod-02 text-button-size swing">
                   Me mande uma mensagem!
@@ -81,20 +81,6 @@ const Header = () => (
                 src={Ilustracao}
                 alt=""
               />
-              <div className="p-sobre-2">
-                <a
-                  href="https://ocariocawebdesign.gtsb.io/estudo-de-objetos-em-javascript/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    className="img-thumbnail works img-border"
-                    src={HomeOffice}
-                  />
-                  <h1 className="text-center text-uppercase">Javascript</h1>
-                </a>{" "}
-                <h4 className=""></h4>
-              </div>
             </div>
             <section id="wp-posts">
               <div className="container">
