@@ -5,30 +5,38 @@ import Ilustracao from "../Header/img/ocarioca-ilustracao-1.png";
 import Ocarioca from "../Header/img/ocarioca-rounded.png";
 import GitHub from "../Header/img/GitHub_Logo.png";
 import LinkedIn from "../Header/img/linkedin.png";
+import HomeOffice from "../Header/img/homeOffice.jpg";
+
 //import Blog from "../Blog/index";
 import "../css/animate.min.css";
 //import AnimateClass from "./script";
 const Header = () => (
   <>
-   
     <header id="header-top">
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 section-1-logo">
             <div id="logo">
-              <img className="img-fluid" src={Logo} alt="" />
+              <img className="img-fluid" src={Logo} alt="Logo O Carioca Web" />
             </div>
             <div className="centralizar">
-              <img className="img-fluid img-perfil" src={Ocarioca} alt="" />
+              <img
+                className="img-fluid img-perfil"
+                src={Ocarioca}
+                alt="Foto de Carlos Abreu"
+              />
             </div>
-            <p className="text-letf p-sobre animate__animated animate__fadeIn animate__repeat-6">
-              Meu nome é Carlos Abreu, trabalho com desenvolvimento de sites
-              focado no front-end. Atualmente estou como freelancer e sempre em
-              busca de novos desafios. Uma das minhas paixões e motivo de
-              orgulho é ser usuário do Ubuntu Linux onde busco realizar todos os
-              processos do meu trabalho usando software livre. Tenho experiência
-              com HTML5, CSS3, Bootstrap e no momento estudando Javascript.
-            </p>
+            <main>
+              <p className="text-letf p-sobre animate__animated animate__fadeIn animate__repeat-6">
+                Meu nome é Carlos Abreu, trabalho com desenvolvimento de sites
+                focado no front-end. Atualmente estou como freelancer e sempre
+                em busca de novos desafios. Uma das minhas paixões e motivo de
+                orgulho é ser usuário do Ubuntu Linux onde busco realizar todos
+                os processos do meu trabalho usando software livre. Tenho
+                experiência com HTML5, CSS3, Bootstrap e no momento estudando
+                Javascript.
+              </p>
+            </main>
 
             <div className="centralizar">
               <a
@@ -57,7 +65,7 @@ const Header = () => (
                 rel="noreferrer"
                 cacak7
               >
-                <button className="btn btn-primary-mod-02 text-button-size swing" >
+                <button className="btn btn-primary-mod-02 text-button-size swing">
                   Me mande uma mensagem!
                 </button>
               </a>
@@ -73,6 +81,20 @@ const Header = () => (
                 src={Ilustracao}
                 alt=""
               />
+              <div className="p-sobre-2">
+                <a
+                  href="http://localhost:8000/post/estudo-de-objetos-em-javascript"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    className="img-thumbnail works img-border"
+                    src={HomeOffice}
+                  />
+                  <h1 className="text-center text-uppercase">Javascript</h1>
+                </a>{" "}
+                <h4 className=""></h4>
+              </div>
             </div>
             <section id="wp-posts">
               <div className="container">

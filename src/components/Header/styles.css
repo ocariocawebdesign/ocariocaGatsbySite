@@ -76,6 +76,32 @@ header {
   border-radius: 3px;
   box-shadow: 1px 1px 6px 1px #e6e3e3;
 }
+
+.p-sobre-2 {
+  width: 100%;
+  margin-top: 4rem;
+  display: block;
+  width: 100%;
+  z-index: 101;
+  height: 100%;
+  background: #fafafa;
+  border: 2px solid #fafafa;
+  border-radius: 0.8rem;
+  box-shadow: 1px 1px 6px 1px #e6e3e3;
+  font-size: 25px !important;
+  line-height: 30px !important;
+  font-weight: 700 !important;
+  color:#333 !important;
+}
+
+.img-border{
+  border-radius: 0.8rem;
+}
+
+a {
+  text-decoration: none !important;
+}
+
 .bg-light {
   background-color: transparent !important;
 }

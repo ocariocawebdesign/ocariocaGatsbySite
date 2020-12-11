@@ -5,6 +5,7 @@ import Tanto from "../Content/img/tanto.png";
 import PostoSeis from "../Content/img/posto-seis.png";
 import Espirales from "../Content/img/espirales.png";
 import CoffeCup from "../Content/img/coffe.png";
+import Requinte from "../Content/img/requinte.png";
 
 import PrimoCappo from "../Content/img/primoCappo.png";
 import "./styles.css";
@@ -87,12 +88,15 @@ const Content = () => (
         <div
           id="content-box-03"
           className="col-xs-12 col-sm-12 col-md-4 col-lg-4"
-        ></div>
-      </div>
-      <div id="content-main">
-        <div id="box01">Oi</div>
-
-        <div id="box02">Olá</div>
+        >
+          <a href="http://totensrequinte.com.br/" rel="noreferrer" target="_blank">
+            <img
+              className="img-thumbnail img-fluid works"
+              src={Requinte}
+              alt=""
+            />
+          </a>
+        </div>
       </div>
     </div>
     <div className="centralizar-coffe">
