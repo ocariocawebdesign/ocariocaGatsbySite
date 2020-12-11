@@ -83,7 +83,7 @@ const Header = () => (
               />
               <div className="p-sobre-2">
                 <a
-                  href="http://localhost:8000/post/estudo-de-objetos-em-javascript"
+                  href="https://ocariocawebdesign.com/estudo-de-objetos-em-javascript/"
                   target="_blank"
                   rel="noreferrer"
                 >
