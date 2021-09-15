@@ -21,7 +21,6 @@
     "gatsby-legacy-polyfills": "^0.3.0",
     "gatsby-plugin-sharp": "^2.10.1",
     "gatsby-plugin-sitemap": "^2.8.0",
-    "gatsby-source-wordpress": "^3.7.0",
     "gatsby-transformer-sharp": "^2.8.0",
     "html-react-parser": "^0.14.2",
     "path": "^0.12.7",
