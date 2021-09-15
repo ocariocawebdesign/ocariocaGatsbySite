@@ -1,11 +1,12 @@
 import React from "react";
 import Efeito from "./efeito";
 import Forcasa from "../Content/img/forCasa.png";
-import Tanto from "../Content/img/tanto.png";
-import PostoSeis from "../Content/img/posto-seis.png";
+//import Tanto from "../Content/img/tanto.png";
+//import PostoSeis from "../Content/img/posto-seis.png";
 import Espirales from "../Content/img/espirales.png";
 import CoffeCup from "../Content/img/coffe.png";
-import Requinte from "../Content/img/requinte.png";
+//import Requinte from "../Content/img/requinte.png";
+import Instagram from "../Content/img/instagram-logo.png";
 
 import PrimoCappo from "../Content/img/primoCappo.png";
 import "./styles.css";
@@ -22,7 +23,11 @@ const Content = () => (
           id="content-box-01"
           className="col-xs-12 col-sm-12 col-md-4 col-lg-4"
         >
-          <a href="http://primocappo.com.br" rel="noreferrer" target="_blank">
+          <a
+            href="https://ocariocawebdesign.github.io/promocoes-delivery/"
+            rel="noreferrer"
+            target="_blank"
+          >
             {" "}
             <img className="img-thumbnail works" src={PrimoCappo} alt="" />
           </a>
@@ -43,19 +48,6 @@ const Content = () => (
             />
           </a>
         </div>
-        <div
-          id="content-box-03"
-          className="col-xs-12 col-sm-12 col-md-4 col-lg-4"
-        >
-          <a
-            href="http://tantoarquitetura.com.br/"
-            rel="noreferrer"
-            target="_blank"
-          >
-            {" "}
-            <img className="img-thumbnail img-fluid works" src={Tanto} alt="" />
-          </a>
-        </div>
 
         <div
           id="content-box-01"
@@ -73,32 +65,30 @@ const Content = () => (
             />
           </a>
         </div>
+
+        {/* Aqui vai iniciar redes sociais e portfólio */}
+
         <div
-          id="content-box-02"
+          id="content-box-01"
           className="col-xs-12 col-sm-12 col-md-4 col-lg-4"
         >
-          <a href="http://postoseis.com.br/" rel="noreferrer" target="_blank">
+          <a
+            href="https://www.instagram.com/ocariocawebdesign/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <img
               className="img-thumbnail img-fluid works"
-              src={PostoSeis}
+              src={Instagram}
               alt=""
             />
           </a>
-        </div>
-        <div
-          id="content-box-03"
-          className="col-xs-12 col-sm-12 col-md-4 col-lg-4"
-        >
-          <a href="http://totensrequinte.com.br/" rel="noreferrer" target="_blank">
-            <img
-              className="img-thumbnail img-fluid works"
-              src={Requinte}
-              alt=""
-            />
-          </a>
+
+          {/* Aqui vai finalizar redes sociais e portfólio */}
         </div>
       </div>
     </div>
+
     <div className="centralizar-coffe">
       <a
         href="https://api.whatsapp.com/send?phone=5521971025148&text=Ol%C3%A1!%20Quero%20informa%C3%A7%C3%B5es%20sobre%20Desenvolvimento%20de%20sites..."
