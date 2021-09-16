@@ -6,7 +6,7 @@ module.exports = {
   },
   /* Your site config here */
   plugins: [
-   
+    
         //"gatsby-plugin-sitemap": "^2.8.0", essa linha está no package.json
 
     //`gatsby-plugin-sitemap`,
