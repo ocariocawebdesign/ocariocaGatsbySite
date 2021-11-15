@@ -132,6 +132,11 @@ span {
   margin-top: 2rem;
 }
 
+.btn-primary {
+  background: #693377 !important;
+  border: 2px solid #693377;
+}
+
 .btn-primary-mod {
   text-transform: uppercase !important;
   font-weight: bold !important;
@@ -208,5 +213,109 @@ h3.text-promocao {
   flex-direction: column;
 }
 .coffe-button {
-  background: #693377!important;
+  background: #693377 !important;
+}
+
+.card-bacckground-color-1 {
+  background: #fafafa;
+  border: #fafafa solid 2px;
+  border-radius: 3px;
+  -webkit-box-shadow: 5px 5px 21px -2px #000000;
+  box-shadow: 5px 5px 21px -2px #000000;
+}
+
+.title-color-1 {
+  display: flex;
+  justify-content: center;
+  background: #fafafa !important;
+  padding: 4rem;
+  color: #484e56;
+  font-size: 3em;
+  border-radius: 3px;
+}
+
+.title-color-2 {
+  display: flex;
+  justify-content: center;
+  background: #fafafa !important;
+  padding: 4rem;
+  color: #484e56;
+  font-size: 3em;
+  border-radius: 3px;
+}
+
+.title-color-3 {
+  display: flex;
+  justify-content: center;
+  background: #fafafa !important;
+  padding: 4rem;
+  color: #484e56;
+  font-size: 3em;
+  border-radius: 3px;
+}
+
+.p-content {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.text-content {
+  font-size: 2em;
+  color: #333;
+}
+
+/*Copia card*/
+
+.host1 {
+  box-sizing: border-box;
+  width: calc(100% + 1px);
+  -webkit-transform: translate(-21px, -20px);
+  transform: translate(-21px, -20px);
+  margin-bottom: -20px;
+  padding: 30px 0;
+  text-align: center;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  background-color: #693377;
+  margin-left: 20px;
+  color: #fafafa;
+  font-size: 2em;
+}
+
+.host2 {
+  box-sizing: border-box;
+  width: calc(100% + 1px);
+  -webkit-transform: translate(-21px, -20px);
+  transform: translate(-21px, -20px);
+  margin-bottom: -20px;
+  padding: 30px 0;
+  text-align: center;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  background-color: #0f9d58;
+  margin-left: 20px;
+  color: #fafafa;
+  font-size: 2em;
+}
+
+.host3 {
+  box-sizing: border-box;
+  width: calc(100% + 1px);
+  -webkit-transform: translate(-21px, -20px);
+  transform: translate(-21px, -20px);
+  margin-bottom: -20px;
+  padding: 30px 0;
+  text-align: center;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  background-color: #e07a06;
+  margin-left: 20px;
+  color: #fafafa;
+  font-size: 2em;
+}
+
+li {
+  font-size: 1.5em;
+  line-height: 1 !important;
+  color: #484e56;
 }

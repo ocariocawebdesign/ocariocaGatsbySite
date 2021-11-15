@@ -1,11 +1,7 @@
 import React from "react";
 import "./styles.css";
-import Logo from "../Header/img/logo-grey.png";
-import Ilustracao from "../Header/img/ocarioca-ilustracao-1.png";
-import Ocarioca from "../Header/img/profile.jpg";
-import GitHub from "../Header/img/GitHub_Logo.png";
-import LinkedIn from "../Header/img/linkedin.png";
-//import HomeOffice from "../Header/img/homeOffice.jpg";
+import Logo from "../Header/img/logo.png";
+import Ilustracao from "../Header/img/logo-mobile.png";
 
 //import Blog from "../Blog/index";
 import "../css/animate.min.css";
@@ -15,28 +11,23 @@ const Header = () => (
     <header id="header-top">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 section-1-logo">
+          <div className="col-xs-12 col-sm-12 col-md-8 col-lg-8 section-1-logo">
             <div id="logo">
               <img className="img-fluid" src={Logo} alt="Logo O Carioca Web" />
             </div>
+            <br />
             <div className="centralizar">
-              <img
-                className="img-fluid img-perfil img-thumbnail"
-                src={Ocarioca}
-                alt="Foto de Carlos Abreu"
-              />
+              <h1 className="h1header">
+                Dê vida e voz para o seu negócio na internet
+              </h1>
+              <h2 className="h2header">
+                Descubra como é simples criar páginas e enviar campanhas de
+                email marketing para converter visitantes em clientes e fazer
+                seu negócio{" "}
+              </h2>
             </div>
-            <main>
-              <p className="text-letf p-sobre animate__animated animate__fadeIn animate__repeat-6">
-                Meu nome é Carlos Abreu, trabalho com desenvolvimento de sites
-                focado no front-end. Atualmente estou como freelancer e sempre
-                em busca de novos desafios. Experiência como usuário de Ubuntu Linux onde realizo
-                os processos de desenvolvimento web. Tenho
-                experiência com HTML5, CSS3, Bootstrap, Wordpress e Javascript.
-              </p>
-            </main>
 
-            <div className="centralizar">
+            {/*<div className="centralizar">
               <a
                 href="https://github.com/ocariocawebdesign"
                 target="_blank"
@@ -55,24 +46,25 @@ const Header = () => (
               >
                 <img className="img-fluid" src={LinkedIn} width="82" alt="" />
               </a>
-            </div>
-            <div className="centralizar">
+              </div>*/}
+            <br />
+            <br />
+            <div className="">
               <a
                 href="https://api.whatsapp.com/send?phone=5521971025148&text=Ol%C3%A1!%20Quero%20informa%C3%A7%C3%B5es%20sobre%20Desenvolvimento%20de%20sites..."
                 target="_blank"
                 rel="noreferrer"
-                
               >
                 <button className="btn btn-primary-mod-02 text-button-size swing">
-                  Me mande uma mensagem!
+                  Saiba mais!
                 </button>
               </a>
             </div>
             <br />
           </div>
 
-          <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 box-02">
-            <h1 className="text-left h1-header">Desenvolvimento de websites</h1>
+          <div className="col-xs-12 col-sm-12 col-md-4 col-lg-4 box-02">
+            {/*<h1 className="text-left h1-header">Desenvolvimento de websites</h1>*/}
             <div className="ilustracao-margin">
               <img
                 className="img-fluid img-ilustracao"

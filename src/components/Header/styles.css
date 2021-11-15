@@ -6,6 +6,16 @@
   --title-color-2: #2c3b88;
 }
 
+body {
+  background: rgb(255, 195, 35);
+  background: linear-gradient(
+    90deg,
+    #c3c0c4 0%,
+    rgb(219, 216, 218) 47%,
+    #b4d5f0 100%
+  );
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +27,7 @@ header {
   display: grid !important;
   grid-template-columns: 100% !important;
   grid-row: auto;
-  background: #fff;
+
   padding: 2rem;
 }
 #header-top {
@@ -43,15 +53,15 @@ header {
 #logo {
   display: flex;
   width: 100%;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
 .img-ilustracao {
   max-width: 80%;
 }
 
 .ilustracao-margin {
-  margin-top: 1rem;
+  margin-top: 10rem;
 }
 
 .box-02 {
@@ -92,10 +102,10 @@ header {
   font-size: 25px !important;
   line-height: 30px !important;
   font-weight: 700 !important;
-  color:#333 !important;
+  color: #333 !important;
 }
 
-.img-border{
+.img-border {
   border-radius: 0.8rem;
 }
 
@@ -136,13 +146,26 @@ a {
 .centralizar {
   display: flex;
   width: 100%;
-  justify-content: center;
-  align-items: center;
-  padding: 0.2rem;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  padding: 1rem;
+  margin-top: 4rem;
+}
+
+.h1header {
+  font-size: 3em;
+  color: #440055;
+  margin-bottom: 2rem;
+}
+
+.h2header {
+  font-size: 1.5em;
+  color: #333;
 }
 .section-1-logo {
-  border-right: 1px solid #f5f4f4;
-  padding: 2rem;
+  
+ 
 }
 
 /*#result {
